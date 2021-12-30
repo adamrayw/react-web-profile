@@ -19,6 +19,7 @@ function App() {
       <header className="App-header">
         <Routes>
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/:id" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
           <Route path="profile" element={<Profile />} />
